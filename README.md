@@ -7,9 +7,9 @@ Retail supply chains constantly face two critical questions: ```Why is there no 
 These problems frustrate store managers, disrupt store operations, cusromers and result in massive financial loss—often caused by misconfigured or forgotten replenishment parameters buried in complex systems. Supply Chain Acharya is a Gen AI-powered assistant designed to uncover these root causes using a Digital Twin of a retail supply chain network.
 
 # Solution
-Acharya answers questions conversationally, explains root causes, and suggests actions.
-
 "Supply Chain Acharya - An AgentBot" can help answer all your supplychain related queries. The Agentic The supply chain management system that integrates with a database to analyze forecast, inventory, logistics, sales tables, generate SQL queries, and provide root cause analysis based on agent-driven workflows.
+
+Acharya answers questions conversationally, explains root causes, and suggests actions.
 
 # Features
 **Text-Based Chat Interface:** A simple Tkinter-based interface for interacting.
