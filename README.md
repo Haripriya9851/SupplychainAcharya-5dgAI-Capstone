@@ -1,6 +1,17 @@
 # Supply chain Acharya - 5dgAI - Capstone Project
 
-This Repository contains the implementation code of "Supply Chain Acharya - An AgentBot" to answer all your supplychain related queries. The Agentic The supply chain management system that integrates with a database to analyze sales data, generate SQL queries, and provide root cause analysis based on agent-driven workflows.
+# Problem Statement
+
+# Solution
+This Repository contains the implementation code of "Supply Chain Acharya - An AgentBot" that can answer all your supplychain related queries. The Agentic The supply chain management system that integrates with a database to analyze forecast, inventory, logistics, sales tables, generate SQL queries, and provide root cause analysis based on agent-driven workflows.
+
+# Simulated Data
+
+
+# Tech-Stack 
+
+1. Function Calling -
+2. 
 
 ## How It Works
 - **Manager Agent:** This agent decides whether clarification is needed or if SQL generation should proceed based on the user's input.
