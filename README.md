@@ -2,7 +2,9 @@
 Your Gen AI guide for intelligent inventory & replenishment diagnostics
 
 # Problem Statement
-
+Retail supply chains constantly face two critical questions: ```Why is there no inventory? Why is there too much inventory?```
+        
+These problems frustrate store managers, disrupt store operations, cusromers and result in massive financial loss—often caused by misconfigured or forgotten replenishment parameters buried in complex systems. Supply Chain Acharya is a Gen AI-powered assistant designed to uncover these root causes using a Digital Twin of a retail supply chain network.
 
 # Solution
 Acharya answers questions conversationally, explains root causes, and suggests actions.
