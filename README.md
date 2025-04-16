@@ -10,8 +10,9 @@ This Repository contains the implementation code of "Supply Chain Acharya - An A
 
 # Tech-Stack 
 
-1. Function Calling -
-2. 
+1. LangGraph - 
+2. Function Calling -
+3. Few-Shot-CoT - 
 
 ## How It Works
 - **Manager Agent:** This agent decides whether clarification is needed or if SQL generation should proceed based on the user's input.
