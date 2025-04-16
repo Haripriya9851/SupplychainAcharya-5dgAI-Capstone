@@ -1,21 +1,28 @@
 # Supply chain Acharya - 5dgAI - Capstone Project
+Your Gen AI guide for intelligent inventory & replenishment diagnostics
 
 # Problem Statement
 
 
 # Solution
+Acharya answers questions conversationally, explains root causes, and suggests actions.
+
 "Supply Chain Acharya - An AgentBot" can help answer all your supplychain related queries. The Agentic The supply chain management system that integrates with a database to analyze forecast, inventory, logistics, sales tables, generate SQL queries, and provide root cause analysis based on agent-driven workflows.
 
-# Data
-
-
+# Features
+**Text-Based Chat Interface:** A simple Tkinter-based interface for interacting.
+**Intent Recognition:** Identifies the patient's intent (e.g., "refill medication," "check dosage").
+**Entity Extraction:** Extracts relevant information from user/patient input (e.g., medication name).
+**Medication Refill:** Simulates medication refills based on available inventory.
+Dosage Check: Provides typical dosage information (from knowledge base).
+OCR Support: Extracts text from prescription images using PaddleOCR.
 
 # Tech-Stack 
 
 1. LangGraph - 
 2. Function Calling -
 3. Few-Shot-CoT Prompt Engineering-
-4. Evaluation - 
+4. Evaluation - Simulated Realistic data
 
 ## How It Works
 - **Digital Twin:** Digital Twin of a small supply network to simulate 30 days of demand and replenishment, enabling realistic testing.
@@ -73,3 +80,9 @@ The Graph module connects these agents in a sequential flow, ensuring that each 
     ```
 
 4. This will initiate the process, running the sequence of agents (manager, SQL generator, SQL executor, and root cause analyzer), and print the results.
+
+👥 Contributors
+
+[Your Name]
+
+[Team Members or Collaborators]
