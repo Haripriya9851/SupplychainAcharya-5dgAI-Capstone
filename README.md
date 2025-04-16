@@ -6,8 +6,8 @@
 # Solution
 "Supply Chain Acharya - An AgentBot" can help answer all your supplychain related queries. The Agentic The supply chain management system that integrates with a database to analyze forecast, inventory, logistics, sales tables, generate SQL queries, and provide root cause analysis based on agent-driven workflows.
 
-# Simulated Data
-Digital Twin of a small supply network to simulate 30 days of demand and replenishment, enabling realistic testing. 
+# Data
+
 
 
 # Tech-Stack 
@@ -18,6 +18,7 @@ Digital Twin of a small supply network to simulate 30 days of demand and repleni
 4. Evaluation - 
 
 ## How It Works
+- **Digital Twin:** Digital Twin of a small supply network to simulate 30 days of demand and replenishment, enabling realistic testing.
 - **Manager Agent:** This agent decides whether clarification is needed or if SQL generation should proceed based on the user's input.
 
 - **SQL Generator Agent:** Generates SQL queries based on the user's input.
