@@ -2,17 +2,20 @@
 
 # Problem Statement
 
+
 # Solution
-This Repository contains the implementation code of "Supply Chain Acharya - An AgentBot" that can answer all your supplychain related queries. The Agentic The supply chain management system that integrates with a database to analyze forecast, inventory, logistics, sales tables, generate SQL queries, and provide root cause analysis based on agent-driven workflows.
+"Supply Chain Acharya - An AgentBot" can help answer all your supplychain related queries. The Agentic The supply chain management system that integrates with a database to analyze forecast, inventory, logistics, sales tables, generate SQL queries, and provide root cause analysis based on agent-driven workflows.
 
 # Simulated Data
+Digital Twin of a small supply network to simulate 30 days of demand and replenishment, enabling realistic testing. 
 
 
 # Tech-Stack 
 
 1. LangGraph - 
 2. Function Calling -
-3. Few-Shot-CoT - 
+3. Few-Shot-CoT Prompt Engineering-
+4. Evaluation - 
 
 ## How It Works
 - **Manager Agent:** This agent decides whether clarification is needed or if SQL generation should proceed based on the user's input.
@@ -55,11 +58,13 @@ The Graph module connects these agents in a sequential flow, ensuring that each 
 
    ```
    git clone https://github.com/yourusername/supply_chain_graph.git
-   cd supply_chain_acharya```
+   cd supply_chain_acharya
+   ```
 2. Install Requirements:
 
    ```
-   pip install -r requirements.txt  # Add dependencies if required```
+   pip install -r requirements.txt  # Add dependencies if required
+   ```
 3. To run the system, simply execute the ```main.py``` script:
 
     ```
