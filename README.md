@@ -11,13 +11,18 @@ These problems frustrate store managers, disrupt store operations, cusromers and
 
 Acharya answers questions conversationally, explains root causes, and suggests actions.
 
-# Features
-**Text-Based Chat Interface:** A simple Tkinter-based interface for interacting.
-**Intent Recognition:** Identifies the patient's intent (e.g., "refill medication," "check dosage").
-**Entity Extraction:** Extracts relevant information from user/patient input (e.g., medication name).
-**Medication Refill:** Simulates medication refills based on available inventory.
-Dosage Check: Provides typical dosage information (from knowledge base).
-OCR Support: Extracts text from prescription images using PaddleOCR.
+# 🚀 Features
+
+**Chat-Based Interface:**  Natural language interface for planners to ask questions like “Why am I out of stock?” or “Why was too much inventory sent?”
+
+**Intent Recognition:**  Detects user intent—whether it’s a strategic, tactical, or operational query (e.g., inventory imbalance, lead time issue, setup optimization).
+
+**Entity Extraction:**  Extracts supply chain-specific entities such as item, store, DC, vendor, lead time, and calendar from queries.
+
+**Dynamic SQL Generation:**  Generates real-time, schema-aware SQL queries to fetch precise data from the Digital Twin simulation.
+
+**Interactive Workflow Looping:**  Auto-verifies parameters, re-prompts for missing info, and loops back with refined answers—just like a human expert.
+
 
 # Tech-Stack 
 
