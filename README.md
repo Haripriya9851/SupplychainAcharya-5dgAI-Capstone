@@ -15,7 +15,7 @@ Acharya answers questions conversationally, explains root causes, and suggests a
 
 **Chat-Based Interface:**  Natural language interface for planners to ask questions like “Why am I out of stock?” or “Why was too much inventory sent?”
 
-**Intent Recognition:**  Detects user intent—whether it’s a strategic, tactical, or operational query (e.g., inventory imbalance, lead time issue, setup optimization).
+**Intent Recognition:**  Detects user intent—whether it’s a strategic, tactical, or operational query (e.g., inventory, lead time issue, price discrepancy).
 
 **Entity Extraction:**  Extracts supply chain-specific entities such as item, store, DC, vendor, lead time, and calendar from queries.
 
@@ -28,7 +28,7 @@ Acharya answers questions conversationally, explains root causes, and suggests a
 
 1. LangGraph - 
 2. Function Calling -
-3. Few-Shot-CoT Prompt Engineering-
+3. CoT Prompt Engineering- 
 4. Evaluation - Simulated Realistic data
 
 ## How It Works
