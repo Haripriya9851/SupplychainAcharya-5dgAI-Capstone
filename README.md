@@ -55,16 +55,16 @@ The Graph module connects these agents in a sequential flow, ensuring that each 
     /supply_chain_acharya
       ├── /db_tools
       │    ├── db_connection.py
-      │    └── query_executor.py
-      ├── /Agents
+      │    ├── query_executor.py
+      ├── /agents
       │    ├── manager_agent.py
       │    ├── sql_generator_agent.py
       │    ├── sql_executor_agent.py
-      │    └── root_cause_agent.py
-      ├── /Graph
+      │    ├── root_cause_agent.py
+      ├── /graph
       │    ├── state.py
       │    ├── node.py
-      │    └── graph_builder.py
+      │    ├── graph_builder.py
       ├── main.py
 
 ## Setup and Run
@@ -78,7 +78,13 @@ The Graph module connects these agents in a sequential flow, ensuring that each 
 2. Install Requirements:
 
    ```
-   pip install -r requirements.txt  # Add dependencies if required
+   pip install -r requirements.txt  #
+   
+   # Add Other dependencies "one-by-one"
+   !pip install langchain-google-genai==2.1.2 
+   !pip install -U langgraph
+   !pip install -U langchain langchain-core langchain-community pydantic 
+
    ```
 3. To run the system, simply execute the ```main.py``` script:
 
