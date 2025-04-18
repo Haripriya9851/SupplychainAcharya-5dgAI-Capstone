@@ -112,7 +112,7 @@ The Graph module connects these agents in a sequential flow, ensuring that each 
    python main.py
    ```
 
-4. This will initiate the process, running the sequence of agents (manager, SQL generator, SQL executor, and root cause analyzer), and print the results.
+This will initiate the process, running the sequence of agents (manager, SQL generator, SQL executor, and root cause analyzer), and print the results.
 
 👥 Contributors
 
