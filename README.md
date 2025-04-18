@@ -52,7 +52,9 @@ The Graph module connects these agents in a sequential flow, ensuring that each 
 
 # Folder Structure
 
-    /supply_chain_acharya
+# Folder Structure
+
+    /SupplychainAcharya-5dgAI-Capstone
       ├── /db_tools
       │    ├── db_connection.py
       │    ├── query_executor.py
@@ -61,36 +63,54 @@ The Graph module connects these agents in a sequential flow, ensuring that each 
       │    ├── sql_generator_agent.py
       │    ├── sql_executor_agent.py
       │    ├── root_cause_agent.py
+      │    ├── intent_recognition_agent.py  # New agent for intent recognition
+      │    ├── entity_extraction_agent.py  # New agent for entity extraction
       ├── /graph
       │    ├── state.py
       │    ├── node.py
       │    ├── graph_builder.py
+      ├── /data
+      │    ├── sample_data.csv  # New folder for storing sample data
+      │    ├── schema.sql       # Database schema file
+      ├── /utils
+      │    ├── logger.py        # Utility for logging
+      │    ├── config.py        # Configuration file
       ├── main.py
 
-## Setup and Run
 
+## Setup and Run
 1. Clone the repository:
 
-   ```
+   ```bash
    git clone https://github.com/yourusername/supply_chain_graph.git
    cd supply_chain_acharya
    ```
-2. Install Requirements:
 
+2. Create a Conda environment:
+
+   ```bash
+   conda create -n supply_chain_env python=3.10 -y
+   conda activate supply_chain_env
    ```
-   pip install -r requirements.txt  #
-   
-   # Add Other dependencies "one-by-one"
-   !pip install langchain-google-genai==2.1.2 
-   !pip install -U langgraph
-   !pip install -U langchain langchain-core langchain-community pydantic 
 
+3. Install Requirements:
+
+   ```bash
+   pip install -r requirements.txt
+
+   # Install additional dependencies
+   pip install langchain-google-genai==2.1.2
+   pip install -U langgraph
+   pip install -U langchain langchain-core langchain-community pydantic
    ```
-3. To run the system, simply execute the ```main.py``` script:
 
-    ```
-     python main.py
-    ```
+4. Run the system:
+
+   Execute the `main.py` script to start the application:
+
+   ```bash
+   python main.py
+   ```
 
 4. This will initiate the process, running the sequence of agents (manager, SQL generator, SQL executor, and root cause analyzer), and print the results.
 
