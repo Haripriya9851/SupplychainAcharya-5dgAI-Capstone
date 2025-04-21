@@ -116,6 +116,14 @@ This will initiate the process, running the sequence of agents (manager, SQL gen
 
 👥 Contributors
 
-[Your Name]
+## 👥 Co-Authors
 
-[Team Members or Collaborators]
+| Name                    | Kaggle Profile                                                  | LinkedIn Profile                                                   |
+|-------------------------|------------------------------------------------------------------|---------------------------------------------------------------------|
+| Dr. Sonney George       | [@sonneygeorge](https://www.kaggle.com/sonneygeorge)           | [Dr. Sonney George](https://www.linkedin.com/in/dr-sonney-george)  |
+| Hari Priya Ramamoorthy  | [@haripriyaram51](https://www.kaggle.com/haripriyaram51)       | [Hari Priya Ramamoorthy](https://www.linkedin.com/in/haripriyaram51) |
+| Dr. Yuan Shang          | [@raymondyuanshang](https://www.kaggle.com/raymondyuanshang)   | [Dr. Yuan Shang](https://www.linkedin.com/in/yuanshang2020/)       |
+| Toshal Warke            | [@toshall](https://www.kaggle.com/toshall)                     | [Toshal Warke](https://www.linkedin.com/in/toshal-warke)           |
+
+
+
